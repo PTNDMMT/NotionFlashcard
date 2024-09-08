@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="flex flex-col items-center gap-6">
         <p className="text-white text-base mb-2">Scroll to see why these flashcards are <span className="bg-clip-text text-transparent bg-[linear-gradient(45deg,theme(colors.purple.500),theme(colors.yellow.500))] font-semibold">perfect for you</span></p>
         <a href="#problem" className="animate-bounce">
-          <svg className="w-12 h-12 text-white cursor-pointer" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+          <svg className="w-16 h-16 text-white cursor-pointer" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
             <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
           </svg>
         </a>

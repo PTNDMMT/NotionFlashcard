@@ -6,6 +6,9 @@ import Solution from "./Components/solution";
 import Versus from "./Components/versus";
 import WhyNow from "./Components/whyNow";
 import WhyThis from "./Components/whyThis";
+import Footer from "./Components/footer";
+
+
 export default function HomePage() {
   return (
     <div className="relative min-h-screen bg-gradient-to-r from-[#050520] to-[#0a0a40] overflow-hidden">
@@ -19,6 +22,7 @@ export default function HomePage() {
           <WhyThis />
           <WhyNow />
         </div>
+        <Footer />
       </div>
     </div>
   );

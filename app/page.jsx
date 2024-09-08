@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar";
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-r from-purple-600 to-pink-600">
+    <div className="bg-gradient-to-r from-[#050520] to-[#0a0a40]">
       <Navbar />
       <Hero />
     </div>

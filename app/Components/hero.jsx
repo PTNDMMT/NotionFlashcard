@@ -2,8 +2,8 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl w-full space-y-8 text-center">
+    <div className="min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 relative">
+      <div className="max-w-4xl w-full space-y-8 text-center mb-16">
         <div className="backdrop-filter backdrop-blur-md bg-opacity-10 bg-white rounded-3xl py-2 px-4 inline-block border border-white border-opacity-30">
           <span className="bg-clip-text text-transparent bg-[linear-gradient(45deg,theme(colors.purple.500),theme(colors.yellow.500))] font-bold text-lg">
             Announcing our private beta
@@ -28,6 +28,14 @@ const Hero = () => {
             Join Waitlist
           </button>
         </div>
+      </div>
+      <div className="flex flex-col items-center gap-6">
+        <p className="text-white text-base mb-2">Scroll to see why these flashcards are <span className="bg-clip-text text-transparent bg-[linear-gradient(45deg,theme(colors.purple.500),theme(colors.yellow.500))] font-semibold">perfect for you</span></p>
+        <a href="#problem" className="animate-bounce">
+          <svg className="w-12 h-12 text-white cursor-pointer" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+            <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          </svg>
+        </a>
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Problem = () => {
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8" id="problem">
+    <section className="py-16 px-4 sm:px-6 lg:px-8 mb-16" id="problem">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8">
           Feeling Overwhelmed by Your Study Routine?

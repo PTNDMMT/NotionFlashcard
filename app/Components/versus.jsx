@@ -9,8 +9,8 @@ const Versus = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-white/10 rounded-xl p-6 backdrop-blur-sm border border-white/10">
-            <h3 className="text-2xl font-semibold text-blue-300 mb-4">Our Solution</h3>
-            <ul className="space-y-2 text-gray-200">
+            <h3 className="text-2xl font-semibold mb-4">Our Solution</h3>
+            <ul className="space-y-2 text-gray-200 text-lg">
               <li>✅ Seamlessly integrates with Notion</li>
               <li>✅ Create flashcards directly from your notes</li>
               <li>✅ No need to switch between apps</li>
@@ -19,8 +19,8 @@ const Versus = () => {
             </ul>
           </div>
           <div className="bg-white/10 rounded-xl p-6 backdrop-blur-sm border border-white/10">
-            <h3 className="text-2xl font-semibold text-yellow-300 mb-4">Quizlet</h3>
-            <ul className="space-y-2 text-gray-200">
+            <h3 className="text-2xl font-semibold mb-4">Quizlet</h3>
+            <ul className="space-y-2 text-gray-200 text-lg">
               <li>❌ Separate platform from your notes</li>
               <li>❌ Manual creation of flashcards</li>
               <li>❌ Requires switching between apps</li>
@@ -30,6 +30,13 @@ const Versus = () => {
           </div>
         </div>
       </div>
+      <div className="mt-8 flex justify-center">
+          <button className="px-9 py-5 text-white font-semibold rounded-lg hover:from-purple-600 hover:to-yellow-600 transition duration-300 ease-in-out transform hover:scale-105 bg-[length:100%_100%] bg-[linear-gradient(45deg,theme(colors.purple.500),theme(colors.yellow.500))] hover:bg-[linear-gradient(45deg,theme(colors.purple.600),theme(colors.yellow.600))]">
+            <p className="text-white font-semibold text-xl">
+                Take your learning to the next level
+            </p>
+          </button>
+        </div>
     </section>
   )
 }

@@ -16,7 +16,7 @@ export default function HomePage() {
         <Navbar />
         <Hero />
         <Problem />
-        <div className="bg-gradient-to-r from-[#1a1a60] to-[#2a2a80] rounded-2xl">
+        <div className="bg-gradient-to-r from-[#1a1a60] to-[#2a2a80] rounded-3xl">
           <Solution />
           <Versus />
           <WhyThis />

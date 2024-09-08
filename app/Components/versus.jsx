@@ -1,5 +1,6 @@
 import React from 'react'
 import IframeComponent from './iFrameWaitList';
+import { Icon } from '@iconify/react';
 
 const Versus = () => {
   return (
@@ -12,21 +13,21 @@ const Versus = () => {
           <div className="bg-white/10 rounded-xl p-6 backdrop-blur-sm border border-white/10">
             <h3 className="text-2xl font-semibold mb-4">Our Solution</h3>
             <ul className="space-y-2 text-gray-200 text-lg">
-              <li>✅ Seamlessly integrates with Notion</li>
-              <li>✅ Create flashcards directly from your notes</li>
-              <li>✅ No need to switch between apps</li>
-              <li>✅ Customized learning experience</li>
-              <li>✅ Interactive embedded flashcards</li>
+              <li className="flex items-center gap-3"><Icon icon="mingcute:check-fill" width="35" height="35"  style={{color: '#0ca60c'}} /> Seamlessly integrates with Notion</li>
+              <li className="flex items-center gap-3"><Icon icon="mingcute:check-fill" width="35" height="35"  style={{color: '#0ca60c'}} /> Create flashcards directly from your notes</li>
+              <li className="flex items-center gap-3"><Icon icon="mingcute:check-fill" width="35" height="35"  style={{color: '#0ca60c'}} /> No need to switch between apps</li>
+              <li className="flex items-center gap-3"><Icon icon="mingcute:check-fill" width="35" height="35"  style={{color: '#0ca60c'}} /> Customized learning experience</li>
+              <li className="flex items-center gap-3"><Icon icon="mingcute:check-fill" width="35" height="35"  style={{color: '#0ca60c'}} /> Interactive embedded flashcards</li>
             </ul>
           </div>
           <div className="bg-white/10 rounded-xl p-6 backdrop-blur-sm border border-white/10">
             <h3 className="text-2xl font-semibold mb-4">Quizlet</h3>
             <ul className="space-y-2 text-gray-200 text-lg">
-              <li>❌ Separate platform from your notes</li>
-              <li>❌ Manual creation of flashcards</li>
-              <li>❌ Requires switching between apps</li>
-              <li>✅ Variety of study modes</li>
-              <li>❌ Limited integration with note-taking apps</li>
+              <li className="flex items-center gap-3"><Icon icon="line-md:remove" width="35" height="35" style={{color: '#ba2f2f', strokeWidth: '3'}} /> Separate platform from your notes</li>
+              <li className="flex items-center gap-3"><Icon icon="line-md:remove" width="35" height="35"  style={{color: '#ba2f2f', strokeWidth: '3'}} /> Manual creation of flashcards</li>
+              <li className="flex items-center gap-3"><Icon icon="line-md:remove" width="35" height="35"  style={{color: '#ba2f2f', strokeWidth: '3'}} /> Requires switching between apps</li>
+              <li className="flex items-center gap-3"><Icon icon="mingcute:check-fill" width="35" height="35"  style={{color: '#0ca60c'}} /> Variety of study modes</li>
+              <li className="flex items-center gap-3"><Icon icon="line-md:remove" width="35" height="35"  style={{color: '#ba2f2f', strokeWidth: '3'}} /> Limited integration with note-taking apps</li>
             </ul>
           </div>
         </div>

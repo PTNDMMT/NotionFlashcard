@@ -7,6 +7,7 @@ import Versus from "./components/versus";
 import WhyNow from "./components/whyNow";
 import WhyThis from "./components/whyThis";
 import Footer from "./components/footer";
+import AboutUs from "./components/aboutUs";
 
 
 export default function HomePage() {
@@ -21,6 +22,7 @@ export default function HomePage() {
           <Versus />
           <WhyThis />
           <WhyNow />
+          <AboutUs />
         </div>
         <Footer />
       </div>

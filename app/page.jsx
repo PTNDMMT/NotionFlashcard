@@ -1,12 +1,12 @@
 "use client"
-import Hero from "./Components/hero";
-import Navbar from "./Components/navbar";
-import Problem from "./Components/problem";
-import Solution from "./Components/solution";
-import Versus from "./Components/versus";
-import WhyNow from "./Components/whyNow";
-import WhyThis from "./Components/whyThis";
-import Footer from "./Components/footer";
+import Hero from "./components/hero";
+import Navbar from "./components/Navbar";
+import Problem from "./components/Problem";
+import Solution from "./components/Solution";
+import Versus from "./components/versus";
+import WhyNow from "./components/whyNow";
+import WhyThis from "./components/whyThis";
+import Footer from "./components/footer";
 
 
 export default function HomePage() {

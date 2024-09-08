@@ -8,7 +8,7 @@ const IframeComponent = () => {
         scrolling="no"
         style={{
           margin: 0,
-          borderRadius: '0px',
+          borderRadius: '8px',
           backgroundColor: 'transparent',
           width: '100%',
           backdropFilter: 'blur(8px)',

@@ -1,5 +1,5 @@
 import React from 'react';
-import IframeComponent from './iFrameBehiiv';
+import IframeComponent from './iFrameWaitList';
 
 const Hero = () => {
   return (

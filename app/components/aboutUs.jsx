@@ -12,11 +12,11 @@ const AboutUs = () => {
         </h2>
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <div className="md:w-1/3 flex justify-center">
-            <div className="relative w-64 h-80 rounded-3xl overflow-hidden shadow-xl border-4 border-white border-opacity-20">
+            <div className="relative w-80 h-100 rounded-3xl overflow-hidden shadow-xl border-4 border-white border-opacity-20">
               <Image
                 src={us}
                 alt="Gabriele and Luca"
-                className="rounded-3xl w-64"
+                className="rounded-3xl w-80"
               />
             </div>
           </div>

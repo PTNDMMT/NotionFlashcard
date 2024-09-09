@@ -15,7 +15,7 @@ const whyNow = () => {
           Don’t wait—experience the ultimate study tool today and make your learning journey smarter and more enjoyable.
         </p>
         <div className="text-xl sm:text-2xl font-semibold mb-8">
-          <span className="text-yellow-500">Exclusive Discount:</span> Join the waitlist and receive <span className="text-yellow-500">[X%]</span> off your first subscription!
+          <span className="text-yellow-500">Exclusive Discount:</span> Join the waitlist and receive <span className="text-yellow-500">25%</span> off your first subscription!
         </div>
         <button className="px-9 py-5 text-white font-semibold rounded-lg hover:from-purple-600 hover:to-yellow-600 transition duration-300 ease-in-out transform hover:scale-105 bg-[length:100%_100%] bg-[linear-gradient(45deg,theme(colors.purple.500),theme(colors.yellow.500))] hover:bg-[linear-gradient(45deg,theme(colors.purple.600),theme(colors.yellow.600))]"
         onClick={()=>document.getElementById('cta3').showModal()}>
@@ -33,12 +33,12 @@ const whyNow = () => {
                 </h3>
                 <p className="text-lg sm:text-xl text-center mb-6">Don't Miss Out on This Opportunity! 🚀</p>
                 <p className="text-sm sm:text-base mb-4">
-                    You're one step away from transforming the way you study! By joining our waitlist, you'll not only be among the first to experience our revolutionary flashcard tool for Notion, but you'll also lock in an exclusive [X%] discount when we launch!
+                    You're one step away from transforming the way you study! By joining our waitlist, you'll not only be among the first to experience our revolutionary flashcard tool for Notion, but you'll also lock in an exclusive 25% discount when we launch!
                 </p>
                 <p className="text-sm sm:text-base font-semibold mb-2">Why join the waitlist?</p>
                 <ul className="list-disc list-inside mb-4 text-sm sm:text-base">
                     <li> <strong>Early Access:</strong> Be the first to supercharge your Notion workspace.</li>
-                    <li> <strong>Exclusive Discount:</strong> Secure [X%] off just for signing up!</li>
+                    <li> <strong>Exclusive Discount:</strong> Secure 25% off just for signing up!</li>
                     <li> <strong>Maximize Your Learning:</strong> Get a head start on using our tool to boost retention and study smarter, not harder.</li>
                 </ul>
                 <p className="text-sm sm:text-base font-semibold mb-4">This is your chance to level up your study game—don't miss it!</p>

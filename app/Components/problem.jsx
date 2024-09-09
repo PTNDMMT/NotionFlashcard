@@ -36,12 +36,12 @@ const Problem = () => {
                 </h3>
                 <p className="text-lg sm:text-xl text-center mb-6">Don't Miss Out on This Opportunity! 🚀</p>
                 <p className="text-sm sm:text-base mb-4">
-                    You're one step away from transforming the way you study! By joining our waitlist, you'll not only be among the first to experience our revolutionary flashcard tool for Notion, but you'll also lock in an exclusive [X%] discount when we launch!
+                    You're one step away from transforming the way you study! By joining our waitlist, you'll not only be among the first to experience our revolutionary flashcard tool for Notion, but you'll also lock in an exclusive 25% discount when we launch!
                 </p>
                 <p className="text-sm sm:text-base font-semibold mb-2">Why join the waitlist?</p>
                 <ul className="list-disc list-inside mb-4 text-sm sm:text-base">
                     <li> <strong>Early Access:</strong> Be the first to supercharge your Notion workspace.</li>
-                    <li> <strong>Exclusive Discount:</strong> Secure [X%] off just for signing up!</li>
+                    <li> <strong>Exclusive Discount:</strong> Secure 25% off just for signing up!</li>
                     <li> <strong>Maximize Your Learning:</strong> Get a head start on using our tool to boost retention and study smarter, not harder.</li>
                 </ul>
                 <p className="text-sm sm:text-base font-semibold mb-4">This is your chance to level up your study game—don't miss it!</p>

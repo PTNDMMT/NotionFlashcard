@@ -23,7 +23,7 @@ const Problem = () => {
   };
 
   return (
-    <section className="py-28 px-4 sm:px-6 lg:px-8 relative" id="problem">
+    <section className="mb-10 px-4 sm:px-6 lg:px-8 relative" id="problem" style={{ overflowY: 'auto' }}>
       {isConfettiActive && (
         <Confetti
           width={windowSize.width}

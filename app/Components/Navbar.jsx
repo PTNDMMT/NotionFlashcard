@@ -12,13 +12,13 @@ const Navbar = () => {
       <nav className="hidden md:block flex-grow md:flex-grow-0">
         <ul className="flex flex-row space-x-4 md:space-x-6 items-center justify-center">
           <li>
-            <a href="#about" className="text-white px-3 py-1 block hover:bg-opacity-30 transition duration-300">About</a>
+            <a href="#about" className="text-white font-semibold px-3 py-1 block hover:bg-opacity-30 transition duration-300">About</a>
           </li>
           <li>
-            <a href="#how-it-works" className="text-white px-3 py-1 block hover:bg-opacity-30 transition duration-300">How it works</a>
+            <a href="#how-it-works" className="text-white font-semibold px-3 py-1 block hover:bg-opacity-30 transition duration-300">How it works</a>
           </li>
           <li>
-            <a href="#benefits" className="text-white px-3 py-1 block hover:bg-opacity-30 transition duration-300">Benefits</a>
+            <a href="#benefits" className="text-white font-semibold px-3 py-1 block hover:bg-opacity-30 transition duration-300">Benefits</a>
           </li>
         </ul>
       </nav>

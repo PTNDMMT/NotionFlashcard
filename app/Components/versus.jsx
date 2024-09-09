@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import IframeComponent from './iFrameWaitList';
 import { Icon } from '@iconify/react';
 import Confetti from 'react-confetti'
+import Link from 'next/link';
 
 const Versus = () => {
   const [isConfettiActive, setIsConfettiActive] = useState(false);
@@ -20,7 +21,7 @@ const Versus = () => {
   const handleButtonClick = () => {
     setIsConfettiActive(true);
     document.getElementById('cta2').showModal();
-    setTimeout(() => setIsConfettiActive(false), 5000); // Confetti lasts for 5 seconds
+    setTimeout(() => setIsConfettiActive(false), 10000); // Confetti lasts for 10 seconds
   };
   
   return (
@@ -30,7 +31,7 @@ const Versus = () => {
           width={windowSize.width}
           height={windowSize.height}
           recycle={false}
-          numberOfPieces={1000}
+          numberOfPieces={500}
           gravity={0.2}
           wind={0.05}
           colors={['#FF00FF', '#00FFFF', '#FFFF00', '#FF0000', '#00FF00', '#0000FF']}

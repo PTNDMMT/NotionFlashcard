@@ -60,22 +60,22 @@ const WhyNow = () => {
       </div>
 
       <dialog id="cta3" className="modal">
-        <div className="modal-box w-11/12 max-w-4xl p-6 sm:p-8 md:p-12">
-          <h3 className="font-bold text-2xl sm:text-3xl text-center mb-4">
+        <div className="modal-box w-11/12 max-w-5xl p-6 sm:p-8 md:p-12 relative">
+          <h3 className="font-bold text-3xl sm:text-4xl text-center mb-4 ">
             🎉
             <span className="bg-clip-text text-transparent bg-[linear-gradient(45deg,theme(colors.purple.500),theme(colors.yellow.500))]"> You're almost in!</span>
           </h3>
-          <p className="text-lg sm:text-xl text-center mb-6">Don't Miss Out on This Opportunity! 🚀</p>
-          <p className="text-sm sm:text-base mb-4">
+          <p className="text-xl sm:text-2xl text-center mb-6 font-semibold">Don't Miss Out on This Opportunity! 🚀</p>
+          <p className="text-base sm:text-base mb-4">
             You're one step away from transforming the way you study! By joining our waitlist, you'll not only be among the first to experience our revolutionary flashcard tool for Notion, but you'll also lock in an exclusive 25% discount when we launch!
           </p>
-          <p className="text-sm sm:text-base font-semibold mb-2">Why join the waitlist?</p>
+          <p className="text-xl sm:text-base font-semibold mb-2">Why join the waitlist?</p>
           <ul className="list-disc list-inside mb-4 text-sm sm:text-base">
             <li> <strong>Early Access:</strong> Be the first to supercharge your Notion workspace.</li>
             <li> <strong>Exclusive Discount:</strong> Secure 25% off just for signing up!</li>
             <li> <strong>Maximize Your Learning:</strong> Get a head start on using our tool to boost retention and study smarter, not harder.</li>
           </ul>
-          <p className="text-sm sm:text-base font-semibold mb-4">This is your chance to level up your study game—don't miss it!</p>
+          <p className="text-xl sm:text-base font-semibold mb-4">This is your chance to level up your study game—don't miss it!</p>
           <p className="text-base sm:text-lg text-center mb-6">To proceed, please fill out the form below. If you have any questions, feel free to reach out to us.</p>
           <IframeComponent />
         </div>

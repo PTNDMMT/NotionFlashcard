@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 const Solution = () => {
+
   return (
-    <section className="py-28 px-4 sm:px-6 lg:px-8 relative" id="solution">
+    <section className="py-28 px-4 sm:px-6 lg:px-8 relative overflow-auto" id="solution">
       <div className="max-w-6xl mx-auto relative z-10 flex flex-wrap justify-center gap-8">
         <h2 className="text-4xl sm:text-5xl font-bold text-white mb-12 text-center">
           Why Our Solution is Perfect for You
@@ -70,9 +71,9 @@ const Solution = () => {
             </p>
           </div>
         </div>
-
       </div>
     </section>
   )
 }
+
 export default Solution

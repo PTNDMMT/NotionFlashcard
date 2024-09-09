@@ -2,7 +2,7 @@ import React from 'react'
 
 const Solution = () => {
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 relative" id="solution">
+    <section className="py-28 px-4 sm:px-6 lg:px-8 relative" id="solution">
       <div className="max-w-6xl mx-auto relative z-10">
         <h2 className="text-4xl sm:text-5xl font-bold text-white mb-12 text-center">
           Why Our Solution is Perfect for You

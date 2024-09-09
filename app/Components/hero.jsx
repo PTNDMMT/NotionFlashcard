@@ -3,7 +3,7 @@ import IframeComponent from './iFrameWaitList';
 
 const Hero = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 relative">
+    <div className=" py-24 flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 relative">
       <div className="max-w-4xl w-full space-y-8 text-center mb-16">
         <div className="backdrop-filter backdrop-blur-md bg-opacity-10 bg-white rounded-3xl py-2 px-4 inline-block border border-white border-opacity-30">
           <span className="bg-clip-text text-transparent bg-[linear-gradient(45deg,theme(colors.purple.500),theme(colors.yellow.500))] font-bold text-lg">
@@ -11,12 +11,11 @@ const Hero = () => {
           </span>
         </div>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white">
-            Supercharge Your Notion notes with <span className="bg-clip-text text-transparent bg-[linear-gradient(45deg,theme(colors.purple.500),theme(colors.yellow.500))]">powerful flashcard</span>
+            Boost your grades <br /> with <span className="bg-clip-text text-transparent bg-[linear-gradient(45deg,theme(colors.purple.500),theme(colors.yellow.500))]"> Notion flashcards</span>
         </h1>
         <p className="mt-3 text-xl text-gray-200 sm:mt-5 sm:text-2xl">
         Transform your Notion notes into dynamic, interactive learning tools. Our product seamlessly embeds into Notion, using proven techniques to boost retention and accelerate your study process.
         </p>
-        <p className="mt-3 text-sm text-gray-300">Turn Notion flashcards into an interactive learning experience.</p>
         <div className="mt-8 sm:mt-12 flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
           <IframeComponent />
         </div>
